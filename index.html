@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="icon"
       type="image/png"
@@ -13,24 +19,22 @@
     <title>Frontend Mentor | QR code component</title>
   </head>
   <body>
-    <div class="flex-container">
-      <div class="card-elements">
-        <img class="qr-code" src="./images/image-qr-code.png" alt="qr code" />
+    <main class="card-elements" role="main">
+      <img class="qr-code" src="./images/image-qr-code.png" alt="qr code" />
 
-        <div class="top-text">
-          <p class="main-text">
-            Improve your front-end skills by building projects
-          </p>
-        </div>
-
-        <div class="bottom-text">
-          <p class="sub-text">
-            Scan the QR code tovisit Frontend <br />
-            Mentor and take your coding skills to <br />
-            the next level
-          </p>
-        </div>
+      <div class="top-text" role="main">
+        <h1 class="main-text">
+          Improve your front-end skills by building projects
+        </h1>
       </div>
-    </div>
+
+      <div class="bottom-text" role="contentinfo">
+        <p class="sub-text">
+          Scan the QR code tovisit Frontend <br />
+          Mentor and take your coding skills to <br />
+          the next level
+        </p>
+      </div>
+    </main>
   </body>
 </html>
