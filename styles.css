@@ -1,7 +1,43 @@
-.attribution {
-  font-size: 11px;
+body {
+  background-color: hsl(228, 45%, 44%);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-elements {
+  justify-content: center;
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.qr-code {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+p {
   text-align: center;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+
+.main-text {
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.sub-text {
+  color: grey;
+  font-size: 17px;
 }
